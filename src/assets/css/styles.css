@@ -24,3 +24,8 @@ body {
 #pc-cards {
   height: 240px;
 }
+
+#player-cards,
+#pc-cards {
+  height: 240px;
+}
