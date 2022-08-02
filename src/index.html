@@ -19,18 +19,19 @@
     <div>
       <div class="col text-center pt-2">
         <button id="btn-nuevo" class="btn btn-danger">New Game</button>
-        <button id="btn-pedir" class="btn btn-primary">New Card</button>
-        <button id="btn-detener" class="btn btn-primary">Stop</button>
+        <button id="btn-pedir" disabled= "disabled" class="btn btn-primary">
+          New Card
+        </button>
+        <button id="btn-detener" disabled= "disabled"  class="btn btn-primary">
+          Stop
+        </button>
       </div>
 
       <div class="row container">
         <div class="col">
           <h1>Player 1 - <small>0</small></h1>
-          <div id="player-cards">
-            <!-- <img class="carta" src="assets/cartas/7C.png" alt="" />
-            <img class="carta" src="assets/cartas/7C.png" alt="" />
-            <img class="carta" src="assets/cartas/7C.png" alt="" />
-            <img class="carta" src="assets/cartas/7C.png" alt="" /> -->
+          <div id="player-cards" class= "divCartas"></div>
+          
           </div>
         </div>
       </div>
@@ -38,16 +39,14 @@
       <div class="row container mt-2">
         <div class="col">
           <h1>PC - <small>0</small></h1>
-          <div id="pc-cards">
-            <!-- <img class="carta" src="assets/cartas/7C.png" alt="" />
-            <img class="carta" src="assets/cartas/7C.png" alt="" />
-            <img class="carta" src="assets/cartas/7C.png" alt="" />
-            <img class="carta" src="assets/cartas/7C.png" alt="" /> -->
+          <div id="pc-cards" class= "divCartas"></div>
+            
           </div>
         </div>
       </div>
     </div>
     <script src="assets/js/underscore.js"></script>
     <script src="assets/js/juego.js"></script>
+   <script src="assets/js/app.js"></script>
   </body>
 </html>
